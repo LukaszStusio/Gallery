@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <!-- <link rel="stylesheet" href="../../base.css" /> -->
+    <!-- <link rel="stylesheet" href="gallery.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700,900&amp;subset=latin-ext"
+    />
+  </head>
+
+  <body>
+    <div class="galleries">
+      <header class="flexed">
+        <div class="header">
+          <h1>The Gallery</h1>
+          <strong>#58</strong>
+        </div>
+        <div class="logo">
+          <img width="150" src="images/large.png" alt="fancy gallery logo" />
+        </div>
+        <div class="header">
+          <p>
+            Table of content:
+          </p>
+          <ul>
+            <li>closures</li>
+            <li>cleaning up event listeners after use</li>
+          </ul>
+        </div>
+      </header>
+      <div class="gallery gallery1">
+        <img
+          src="./images/1.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="Patchwork coat"
+          data-description="This is the description of the coat"
+        />
+
+        <img
+          src="./images/2.jpg"
+          alt="Photo 2"
+          tabindex="0"
+          title="Kapital company hat"
+          data-description="This is the description of the hat"
+        />
+
+        <img
+          src="./images/3.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/4.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/5.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/6.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/7.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/8.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/9.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+      </div>
+
+      <div class="gallery gallery2">
+        <img
+          src="./images/10.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/11.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/12.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/13.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/14.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/15.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/16.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/17.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+
+        <img
+          src="./images/18.jpg"
+          alt="Photo 1"
+          tabindex="0"
+          title="This is the title of the image"
+          data-description="This is the description of the image"
+        />
+      </div>
+
+      <div class="modal">
+        <div class="modalInner">
+          <button aria-label="Previous Photo" class="prev">←</button>
+          <figure>
+            <img src="./images/7.jpg" />
+            <figcaption>
+              <h2>Test Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                dignissimos obcaecati nisi placeat eaque voluptate,
+                exercitationem eius? Non, iusto provident itaque, voluptate
+                labore a alias officia, amet sunt pariatur praesentium tenetur
+                voluptatibus dolores mollitia quasi aliquid assumenda possimus
+                maiores exercitationem!
+              </p>
+            </figcaption>
+          </figure>
+          <button class="next" aria-label="Next Photo">→</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="gallery.js"></script>
+  </body>
+</html>
